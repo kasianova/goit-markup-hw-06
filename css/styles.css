@@ -143,7 +143,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     /* max-width: 1440px; */
-    max-width: 320px;
+    max-width: 1158px;
     margin: 0 auto;
 
     @media screen and (min-resolution: 2x) {
@@ -157,17 +157,14 @@ body {
 .title {
     color: white;
     font-family: "Roboto", sans-serif;
-    /* font-size: 56px; */
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.02em;
-    /* text-align: center; */
-    /* line-height: 1.07; */
+    text-align: center;
     line-height: 1.1;
-    /* max-width: 496px; */
-    /* max-width: 216px; */
-    /* margin: 0 auto 48px; */
-    margin-bottom: 72px;
+    margin: 0 auto 72px;
+    max-width: 216px;
+  
     
 }
 
@@ -831,11 +828,12 @@ body {
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 24px;
+   
   
 }
 
@@ -848,10 +846,9 @@ body {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
-    display: block;
-    margin-left: 16px;
+    /* margin-left: 16px; */
     /* margin-left: 4px; */
-    /* margin-left: 22px; */
+    margin-left: 24px;
 }
 
 .modal-check:checked + .check-label > .check-false {
@@ -862,6 +859,7 @@ body {
 }
 
 .check-false {
+    margin-right: 8px;
     fill: transparent;
     width: 16px;
     height: 16px;
@@ -1125,15 +1123,14 @@ body {
     }
 
     .title {
+        max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
         margin-bottom: 36px;
     }
      
     .list-features {
-        display: flex;
-        flex-direction: wrap;
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .list-item {
@@ -1145,8 +1142,7 @@ body {
     } 
 
     .team-list {
-        flex-wrap: wrap;
-        gap: 24px;
+        gap: 64px 24px;
     
     }
 
@@ -1228,10 +1224,15 @@ body {
         width: 360px;
     }
     .check-label {
-        flex-direction: row;
+    flex-direction: row;
+    
     }
     .check-label-text {
+        display: flex;
         margin-left: 4px;
+    }
+    .text-check-policy {
+        width: 338px;
     }
 }
     
