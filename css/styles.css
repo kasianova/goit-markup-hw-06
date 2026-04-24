@@ -496,7 +496,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 24px;
+    /* gap: 24px; */
+    gap: 16px;
 
 }
 
@@ -1130,7 +1131,7 @@ body {
 
     .footer-form {
       flex-direction: row;
-      /* align-items: flex-start; */
+      gap: 24px;
     }
 
     .footer-btn {
@@ -1176,6 +1177,8 @@ body {
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .mob-menu {
@@ -1238,6 +1241,11 @@ body {
         justify-content: center;
         align-items: center;
         margin-bottom: 8px;
+    }
+    
+    .feature-container {
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 
     .list-features {
