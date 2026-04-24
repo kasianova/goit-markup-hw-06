@@ -421,8 +421,8 @@ body {
 
 .studio-foot {
     color: #f4f4fd;
-    text-align: center;
-    justify-content: center;
+    /* text-align: center;
+    justify-content: center; */
 }
 
 .logo-footer {
@@ -433,7 +433,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 72px;
+    gap: 72px 0;
     padding-top: 96px;
     padding-bottom: 96px;
 
@@ -498,7 +498,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 24px;
 
 }
 
@@ -971,6 +971,7 @@ body {
         margin-right: 120px;
         padding-top: 24px;
         padding-bottom: 24px;
+        text-align: left;
 
     }
     .page-nav {
@@ -1096,7 +1097,7 @@ body {
         width: 356px;
         height: 300px;
     }
-
+   
     .text-foot {
         text-align: left;
     }
@@ -1106,12 +1107,16 @@ body {
     }
     .footer-left {
         flex-direction: column;
-        margin-bottom: 72px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* margin-bottom: 72px; */
     }
      
     .foot-container {
-        gap: 24px;
-        align-items: baseline;
+        gap: 72px 24px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 108px;
     }
     .soc-footer {
         flex-direction: column;
@@ -1122,8 +1127,8 @@ body {
     .footer-input {
         flex-direction: column;
         align-items: flex-start;
-        max-width: 453px;
-    }
+        /* max-width: 453px; */
+    } 
 
     .email-field {
         width: 264px;
@@ -1131,11 +1136,12 @@ body {
 
     .footer-form {
       flex-direction: row;
+      /* align-items: flex-start; */
     }
 
     .footer-btn {
         flex-direction: row;
-        gap: 16px;
+        /* gap: 16px; */
     }
 
     .modal {
@@ -1213,7 +1219,7 @@ body {
     
     }
     .page-title {
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 188px 0 ;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
