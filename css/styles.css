@@ -417,8 +417,7 @@ body {
 
 .studio-foot {
     color: #f4f4fd;
-    /* text-align: center;
-    justify-content: center; */
+
 }
 
 .logo-footer {
@@ -494,7 +493,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* gap: 24px; */
     gap: 16px;
 
 }
@@ -651,7 +649,7 @@ body {
     flex-direction: column;
     border-radius: 4px;
     max-width: 256px; 
-     min-height: 336px;
+    min-height: 336px;
 
 
 }
@@ -957,7 +955,7 @@ body {
         display: none;
     }
     .logo-header {
-        margin-right: 120px;
+        /* margin-right: 120px; */
         padding-top: 24px;
         padding-bottom: 24px;
         text-align: left;
